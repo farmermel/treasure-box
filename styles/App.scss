@@ -1,13 +1,25 @@
 .App {
   display: flex;
-  height: 100vh;
+  color: #171617;
 }
 
 button {
-  background-color: #92bda3;
-  height: 30px;
+  // background-color: #8ececa;
+  background-color: #bc428b;
+  border: none;
+  padding: 0 10px;
+  height: 34px;
+  outline: none;
 }
 
 input {
   height: 30px;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .App {
+    flex-direction: column;
+  }
 }
