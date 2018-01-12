@@ -4,8 +4,25 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px 0 40px;
-  background-color: #8e8b8b;
+  // background-color: #8e8b8b;
   width: 40%;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    z-index: -1;
+    background: url('../images/desert.jpg');
+    background-size: cover;
+  }
+}
+
+.submit {
+  background-color: #8ececa;
+  &:hover {
+    background-color: #42aebc;
+  }
 }
 
 .post-wrap {

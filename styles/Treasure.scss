@@ -5,7 +5,37 @@
   background-color: #e1e3e2;
 }
 
+.Treasure button {
+  margin: 0 8px 0 0;
+}
+
 .card-title-wrap {
   display: flex;
   justify-content: space-between;
+}
+
+.delete {
+  background-color: #fff;
+  &:hover {
+    background-color: #a05358;
+    // background-color: #a02028;
+  }
+}
+
+.upvote {
+  background-color: #fff;
+  &:hover {
+    background-color: #b8e298;
+  }
+}
+
+.downvote {
+  background-color: #fff;
+  &:hover {
+    background-color: #a05358;
+  }
+}
+
+.value {
+  display: inline-block;
 }
