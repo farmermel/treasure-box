@@ -1,6 +1,7 @@
 .Treasure {
   border: 1px solid black;
-  margin: 5%;
+  margin: 10px 0;
+  width: 78%;
   padding: 10px 20px;
   background-color: #e1e3e2;
 }
@@ -15,10 +16,11 @@
 }
 
 .delete {
+  border-radius: 33px;
   background-color: #fff;
+  height: 30px;
   &:hover {
     background-color: #a05358;
-    // background-color: #a02028;
   }
 }
 
