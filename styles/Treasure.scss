@@ -1,11 +1,43 @@
 .Treasure {
   border: 1px solid black;
-  margin: 5%;
+  margin: 10px 0;
+  width: 78%;
   padding: 10px 20px;
   background-color: #e1e3e2;
+}
+
+.Treasure button {
+  margin: 0 8px 0 0;
 }
 
 .card-title-wrap {
   display: flex;
   justify-content: space-between;
+}
+
+.delete {
+  border-radius: 33px;
+  background-color: #fff;
+  height: 30px;
+  &:hover {
+    background-color: #a05358;
+  }
+}
+
+.upvote {
+  background-color: #fff;
+  &:hover {
+    background-color: #b8e298;
+  }
+}
+
+.downvote {
+  background-color: #fff;
+  &:hover {
+    background-color: #a05358;
+  }
+}
+
+.value {
+  display: inline-block;
 }
