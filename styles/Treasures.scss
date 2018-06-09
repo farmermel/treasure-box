@@ -12,6 +12,32 @@
   width: 78%;
 }
 
+.token {
+  background-color: #8ececa;
+}
+
+.trinket {
+  background-color: #62b2ad;
+}
+
+.heirloom {
+  background-color: #4ba39d;
+}
+
+.gold {
+  background-color: #347c78;
+}
+
+.token,
+.trinket,
+.heirloom,
+.gold {
+  margin: 0 5px 5px;
+  &:hover {
+    background-color: #205b58;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .Treasures {
     width: 100%;
